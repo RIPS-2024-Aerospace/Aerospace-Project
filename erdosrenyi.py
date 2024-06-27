@@ -6,7 +6,7 @@ n = 10
 P = 0.5
 G = nx.Graph()
 for i in range(n):
-    for j in range(i, n):
+    for j in range(i+1, n):
         if random() >= P: 
             G.add_edge(i, j)
 
