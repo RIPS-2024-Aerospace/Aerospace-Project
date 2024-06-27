@@ -7,7 +7,7 @@ P = 0.5
 G = nx.Graph()
 for i in range(n):
     for j in range(i+1, n):
-        if random() >= P: 
+        if random.random() >= P: 
             G.add_edge(i, j)
 
 subax1 = plt.subplot(121)
