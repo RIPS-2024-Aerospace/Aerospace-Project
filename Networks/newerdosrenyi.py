@@ -16,3 +16,4 @@ for i in range(n):
 
 subax1 = plt.subplot(121)
 nx.draw(G, pos=nx.circular_layout(G), node_color='r', edge_color='b')
+plt.show()
