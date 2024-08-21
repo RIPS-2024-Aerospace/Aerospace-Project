@@ -30,6 +30,7 @@ This file sets up the Centralized and Diffusion Filters to run simultaneously on
 * This is tested in TestFilterComparison which is an important file to look at to see how you initialize both filters correctly and use the returned data.
 
 <h2>Other Files</h2>
+
 **Networks**\
 This folder contains some examples and exercises from when we were learning basic network theory for this project.
 
